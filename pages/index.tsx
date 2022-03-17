@@ -25,7 +25,6 @@ const Home: NextPage = () => {
             theme={oneDark}
             height="100%"
             value='print("Hello World!")'
-            extensions={javascript[{ jsx: "true" }]}
           />
           <div className="flex flex-col items-start w-full h-full px-4 py-4 rounded bg-slate-800 text-slate-200">
             After code is compiled via WebAssembly and executed, output goes
