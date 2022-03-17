@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import CodeMirror from '../components/CodeMirror'
 
 const Home: NextPage = () => {
   return (
@@ -16,6 +15,7 @@ const Home: NextPage = () => {
         <div className="flex flex-row items-start w-screen h-full px-6">
           <h1 className="text-xl font-medium text-slate-100">🏗&nbsp;&nbsp;Sandbox</h1>
         </div>
+        <CodeMirror />
       </main>
 
     </div>
